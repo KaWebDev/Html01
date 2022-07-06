@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='/Html01/image/a1.png'">a1그림 활성화</button>
+
+<img id="myImage" src="/Html01/image/a1.png" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='/Html01/image/bar.gif'">b1그림 활성화</button>
+
+<p id="demo"></p>
+<script>document.getElementById("demo").innerHTML = "My First JavaScript";</script>
+
+<img src="/Html01/image/jake.jpg" style="max-width:100%; height:auto;">
+
+<h1 style="font-size:10vw;">Responsive Text</h1>
+
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+</body>
+</html>
